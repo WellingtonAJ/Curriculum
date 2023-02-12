@@ -1,0 +1,44 @@
+
+
+#header {
+        background-color: burlywood;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-family: 'Playfair Display', serif;
+    }
+
+#nameTittle {
+    background-color: white;
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+}
+#contact {
+    list-style-type: none;
+}
+#contact i {
+    width: 30px;
+    color: burlywood;
+}
+#container {
+    display: grid;
+    grid-template-columns: 40% auto;
+    grid-column-gap: 20px ;
+}
+#sidebar, #content{
+    display:  flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.card h3{
+    font-family: 'Playfair Display', serif;
+}
+.h1 h2 h3{
+    text-transform: uppercase;
+}
+.card {
+    border: 1px solid grey;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: antiquewhite;
+}
